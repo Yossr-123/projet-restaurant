@@ -20,7 +20,11 @@ if (!empty($cart)) {
     $stmt->execute(array_keys($cart));
     $products = $stmt->fetchAll();
 }
-?>
+?>               
+
+
+
+
 
 <div class="container mt-5">
     <h2>Votre panier</h2>
